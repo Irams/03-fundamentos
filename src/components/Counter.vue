@@ -1,12 +1,17 @@
 <template>
+<div>
+
     <h2>{{customTitle}}</h2>
     <p>{{counter}} <sup>2</sup> = {{squareCounter}}</p> 
- <div>
+    <p data-testid="counter">{{counter}}</p>
+    
+  <div class="buttons">
    <!-- <button v-on:click="increase">+1</button> -->
-   <button @click="increase">+1</button>
-   <!-- <button v-on:click="decrease">-1</button> -->
-   <button @click="decrease">-1</button>
- </div>
+    <button @click="increase">+1</button>
+    <!-- <button v-on:click="decrease">-1</button> -->
+    <button @click="decrease">-1</button>
+  </div>
+</div>
 </template>
 
 <script>
@@ -14,7 +19,7 @@ export default {
   props: {
     title: String,
     start: {
-      default: 10,
+      default: 100,
       type: Number,
       // require: true,
       validator (value){
