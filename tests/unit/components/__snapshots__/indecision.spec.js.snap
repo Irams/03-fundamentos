@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Indecision Component Match con el snapshot 1`] = `
+<!--v-if-->
+<div class="bg-dark"></div>
+<div class="indecision-container"><input type="text">
+  <p>Recuerda terminar con un signo de interrogación (?)</p>
+  <!--v-if-->
+</div>
+`;
+
+exports[`Indecision Component match con el snapshot 1`] = `
+<!--v-if-->
+<div class="bg-dark"></div>
+<div class="indecision-container"><input type="text">
+  <p>Recuerda terminar con un signo de interrogación (?)</p>
+  <!--v-if-->
+</div>
+`;
